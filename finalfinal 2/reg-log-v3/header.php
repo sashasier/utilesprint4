@@ -1,49 +1,28 @@
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-	<link rel="stylesheet" type="text/css" href="master.css">
-
-	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
-	<!-- Latest compiled and minified JavaScript -->
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
-<body>
-
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li>
-			<a href="inicio.php">Inicio!</a>
-		</li>
-		<?php if ($auth->estaLogueado()) : ?>
-			<li>
-				<a href="logout.php">Logout</a>
-			</li>
-			<li>
-				<a href="miPerfil.php">Mi Perfil</a>
-			</li>
-		<?php else: ?>
-			<li>
-				<a href="register.php">Register</a>
-			</li>
-			<li>
-				<a href="login.php">Login</a>
-			</li>
-		<?php endif; ?>
-		<li>
-			<a href="contactanos.php">Contactanos</a>
-		</li>
+  <head>
+    <meta charset="utf-8">
+    <title>header</title>
+  </head>
+  <body>
+    <div class="banner">
+      <img src="" alt="" class="logo">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="home.php"><img src="imagenes/logo/utile.png" class="logo" alt=""></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="login.php">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="registrarse.php">Registrarse</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="preguntasfrecuentes.php">FAQ</a>
+        </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-
-<div class="container">
+    </div>
+  </body>
+</html>
