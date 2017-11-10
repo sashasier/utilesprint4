@@ -21,7 +21,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li>
-			<a href="inicio.php">Inicio</a>
+			<a href="inicio.php">Inicio!</a>
 		</li>
 		<?php if ($auth->estaLogueado()) : ?>
 			<li>
