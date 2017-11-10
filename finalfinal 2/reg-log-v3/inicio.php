@@ -7,15 +7,22 @@
 			$nombre = "Invitado";
 		} else {
 			$nombre = $usuarioLogueado->getUsername();
-		}
-
-		$productos = ["VideoCasetera", "Walkman", "Discman", "Gameboy"];
+		};
 
 		$usuarios = $db->traerTodos();
 
 	?>
-	<?php include("header.php"); ?>
 
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Inicio</title>
+			<?php include("header.php"); ?>
+	</head>
+
+	</body>
+</html>
 	<div class="form-banner">
 		<form class="col-md-8" action="index.html" method="post">
 			<div class="form-group col-md-3">
