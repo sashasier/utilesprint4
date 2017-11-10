@@ -7,7 +7,7 @@ class DBMySQL extends DB {
   private $db;
 
   public function __construct() {
-    $dsn = 'mysql:host=localhost;dbname=reglog;
+    $dsn = 'mysql:host=localhost;dbname=utile_db;
     charset=utf8mb4;port=3306';
     $user ="root";
     $pass = "root";

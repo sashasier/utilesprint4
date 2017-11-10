@@ -22,11 +22,6 @@
           </li>
         </ul>
       </div>
-      <div>
-      <?php include 'php/cookie_lectura.php'; ?>
-        <a class="not-login"><?php echo $wellcome ?></a>
-<!--    			<a class="not-login">Usted no se ha identificado</a>	-->
-      </div>
 
       <div class="form-banner">
         <form class="col-md-8" action="index.html" method="post">

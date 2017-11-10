@@ -52,7 +52,7 @@
 	          	<h4 style="text-align: right">Ver todo</h4>
 		        <div class="owl-carousel owl-theme">
 		          <div class="item">
-		            <img src="imagenes/barra/barra1.jpg" alt="Barra1" width="200" height="240">
+		            <img src="imagenes/barra/barra1	.jpg" alt="Barra1" width="200" height="240">
 		            <h4>Barra1</h4>
 		          </div>
 		          <div class="item">
@@ -241,7 +241,3 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	  </body>
 	</html>
-
-
-
-	<?php include("footer.php"); ?>

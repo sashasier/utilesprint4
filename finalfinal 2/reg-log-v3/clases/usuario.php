@@ -19,8 +19,6 @@ class Usuario {
 
     $this->email = $datos["email"];
     $this->username = $datos["username"];
-    $this->pais = $datos["pais"];
-    //$this->telefono = $datos["telefono"];
   }
 
   public function guardarImagen() {
